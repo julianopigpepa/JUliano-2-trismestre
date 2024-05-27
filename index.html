@@ -6,31 +6,47 @@
     <title>Minha Faculdade e Profissão</title>
     <style>
         body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
         header {
-            background-color: rgb(129, 9, 9);
-            padding: 20px;
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
             text-align: center;
         }
         h1, h2 {
-            color: white;
+            color: #000000;
+            margin: 0;
         }
         section {
-            padding: 20px;
+            padding: 20px 0;
         }
-        footer {
-            background-color: rgb(143, 6, 6);
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+   
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -40,32 +56,43 @@
     <h1>Minha Faculdade e Profissão</h1>
 </header>
 
-<section>
-    <div style="text-align: center;">
-    
-        <h2 >Faculdades de Tecnologia da Informação no Paraná</h2>
-         
-    </div>
-    <div style="overflow: hidden; text-align: center;">
-        <img src="TI.jpg" style="width: 750px; margin: 0 auto 75px;"></img>
+<section class="container">
+    <h2>Faculdades de Tecnologia da Informação no Paraná</h2>
+    <div>
+        <img src="TI.jpg" alt="Tecnologia da Informação" />
         <ul>
-            <h1>Universidade Estadual de Londrina (UEL)</h1>
-            <h1>Universidade Estadual de Maringá (UEM)</h1>
-            <h1>Universidade Tecnológica Federal do Paraná (UTFPR)</h1>
+            <li><h3>Universidade Estadual de Londrina (UEL)</h3></li>
+            <li><h3>Universidade Estadual de Maringá (UEM)</h3></li>
+            <li><h3>Universidade Tecnológica Federal do Paraná (UTFPR)</h3></li>
+            <li><h3>Universidade Federal do Paraná (UFPR)</h3></li>
+            <li><h3>Pontifícia Universidade Católica do Paraná (PUCPR)</h3></li>
+            <li><h3>Universidade Positivo</h3></li>
             <!-- Adicione mais faculdades conforme necessário -->
         </ul>
     </div>
 </section>
 
-<section>
-    <h2>Informações sobre a Profissão</h2>
-    <p>A profissão de Tecnologia da Informação (TI) é uma área em constante crescimento, com muitas oportunidades de emprego. O salário médio para profissionais de TI no Paraná varia conforme a especialização e a experiência, mas geralmente é competitivo.</p>
-    <p>O tempo de estudo para se tornar um profissional de TI pode variar dependendo do nível de formação desejado. Um curso de graduação geralmente leva de 4 a 5 anos, enquanto certificações e cursos técnicos podem ter durações mais curtas. Ainda estou em dúvida a qual quero escolher.</p>
+<section class="container">
+    <h2>Cursos Online e Certificações</h2>
+    <p>Além das opções presenciais, há uma variedade de cursos online e certificações disponíveis para quem deseja se especializar em Tecnologia da Informação. Alguns exemplos incluem:</p>
+    <ul>
+        <li>Cursos de programação em plataformas como Udemy, Coursera e edX.</li>
+        <li>Certificações em redes (Cisco CCNA), segurança da informação (CompTIA Security+), entre outras.</li>
+        <li>Mestrados e especializações em áreas específicas da TI oferecidos por universidades renomadas ao redor do mundo.</li>
+    </ul>
 </section>
 
-<footer>
-    <p>© 2024 Minha Faculdade e Profissão</p>
-</footer>
+<section class="container">
+    <h2>Importância da Profissão de TI</h2>
+    <p>A profissão de Tecnologia da Informação desempenha um papel fundamental na sociedade moderna. Ela está no centro da transformação digital em praticamente todos os setores, incluindo saúde, educação, finanças, entretenimento e governo.</p>
+    <p>No futuro, espera-se que a demanda por profissionais de TI continue a crescer, à medida que novas tecnologias emergem e se tornam cada vez mais integradas à vida cotidiana. Isso cria oportunidades empolgantes para aqueles que escolhem seguir uma carreira nessa área.</p>
+</section>
+
+<section class="container">
+    <h2>Trabalho Remoto para o Exterior</h2>
+    <p>Com o avanço das tecnologias de comunicação e o aumento da globalização, muitas empresas de tecnologia estão adotando o trabalho remoto como uma prática comum. Isso significa que profissionais de TI têm a oportunidade de trabalhar para empresas estrangeiras sem sair de casa, colaborando em projetos de todo o mundo.</p>
+    <p>Essa tendência oferece uma série de benefícios, como maior flexibilidade de horário, eliminação do tempo de deslocamento e acesso a uma ampla gama de oportunidades de emprego em diferentes países, tudo isso contribuindo para uma carreira internacionalmente diversificada e enriquecedora.</p>
+</section>
 
 </body>
 </html>
